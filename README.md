@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+You will need to make sure that you have  Docker Compose installed https://docs.docker.com/compose/install/
 
-Things you may want to cover:
+git clone http://github.com/nolany/rails-docker.git
 
-* Ruby version
+cd rails-docker/
 
-* System dependencies
+docker-compose run web rake db:create
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+docker-compose up
